@@ -1,7 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <link href="css/mapsvg.css" rel="stylesheet">
+  <link href="css/nanoscroller.css" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="js/jquery.nanoscroller.min.js"></script>
+  <script src="js/mapsvg.min.js"></script>
+
+</head>
+<body>
+
 <div id="mapsvg"></div>
 
 <script type="text/javascript">
 jQuery(document).ready(function(){
-jQuery("#mapsvg").mapSvg({width: 959,height: 593,viewBox: [0,0,959,593],gauge: {on: false,labels: {low: "low",high: "high"},colors: {lowRGB: {r: 85,g: 0,b: 0,a: 1},highRGB: {r: 238,g: 0,b: 0,a: 1},low: "#550000",high: "#ee0000",diffRGB: {r: 153,g: 0,b: 0,a: 0}},min: 0,max: false},source: "https://combinatronics.com/alisisk-pt/mapsvg/master/mapsvg/maps/not-calibrated/usa/usa-labels-full.svg",title: "Usa-labels-full",responsive: true});
+jQuery("#mapsvg").mapSvg({width: 959,height: 593,viewBox: [0,0,959,593],gauge: {on: false,labels: {low: "low",high: "high"},colors: {lowRGB: {r: 85,g: 0,b: 0,a: 1},highRGB: {r: 238,g: 0,b: 0,a: 1},low: "#550000",high: "#ee0000",diffRGB: {r: 153,g: 0,b: 0,a: 0}},min: 0,max: false},source: "maps/not-calibrated/usa/usa-labels-full.svg",title: "Usa-labels-full",responsive: true});
 });
 </script>
+</body>
+</html>
